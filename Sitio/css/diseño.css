@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+    background-image: url('https://img.freepik.com/foto-gratis/pintura-lago-montana-montana-al-fondo_188544-9126.jpg?t=st=1717522010~exp=1717525610~hmac=3c90504a7eff4417ed910d890f90f5df861bb3dedee8c06b0a491b0cdfe4f25e&w=1060'); /* Cambia 'ruta/a/tu/imagen.jpg' por la ruta de tu imagen de fondo */
+    background-size: cover;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #28a745;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#error-nombre,
+#error-email,
+#error-password,
+#error-confirm_password,
+#error-direccion,
+#error-comuna,
+#error-fono,
+#error-url,
+#error-hobbies {
+    color: #dc3545;
+    margin-top: 5px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+
+
+    @media (max-width: 768px) {
+        .container {
+            padding: 10px;
+        }
+    }
+}
