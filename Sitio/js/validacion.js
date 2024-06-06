@@ -99,7 +99,7 @@ function validar_telefono() {
     var input_telefono = document.getElementById("input-fono");
     var div_error_telefono = document.getElementById("error-fono");
     var telefono = input_telefono.value;
-    var pattern = /^\+\d{2} \d{9}$/;
+    var pattern = /^\+\d{11}$/;
     if (telefono == "") {
         div_error_telefono.innerHTML = "El teléfono es obligatorio";
         div_error_telefono.className = "text-danger small mt-1";
